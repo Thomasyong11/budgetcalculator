@@ -64,35 +64,35 @@
         <p id="manage_error" class="manage_error"></p>
       </div>
       <div class="button_section">
-        <button id="evaluate">Budget</button>
+        <button id="evaluate" onclick="evaluateMoney()">Budget</button>
       </div>
       <!-- Show Result section -->
-      <div class="displayResult">
+      <div id="displayResult" class="displayResult">
         <p>This is how you should spend your money</p>
         <div class="resultsSection">
           <div class="results">
             <h1>Rent</h1>
-            <p>₦ <span>amt</span></p>
+            <p>₦ <span id="rent_amt">amt</span></p>
           </div>
           <div class="results">
             <h1>Emergency</h1>
-            <p>₦ <span>amt</span></p>
+            <p>₦ <span id="emergency_amt">amt</span></p>
           </div>
           <div class="results">
             <h1>Dependants</h1>
-            <p>₦ <span>amt</span></p>
+            <p>₦ <span id="dependants_amt">amt</span></p>
           </div>
           <div class="results">
             <h1>Food</h1>
-            <p>₦ <span>amt</span></p>
+            <p>₦ <span id="food_amt">amt</span></p>
           </div>
           <div class="results">
             <h1>other</h1>
-            <p>₦ <span>amt</span></p>
+            <p>₦ <span id="other_amt">amt</span></p>
           </div>
           <div class="results">
             <h1>Saving</h1>
-            <p>₦ <span>amt</span></p>
+            <p>₦ <span id="saving_amt">amt</span></p>
           </div>
         </div>
       </div>
